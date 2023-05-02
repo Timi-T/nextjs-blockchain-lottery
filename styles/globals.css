@@ -25,3 +25,8 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
